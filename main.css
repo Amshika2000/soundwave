@@ -1,0 +1,190 @@
+h1{
+  color:white;
+  padding: 30px;
+
+}
+
+.nav1{
+background-color: rgb( 18, 33, 84 );
+height: 200px;
+}
+h5{
+ color:white;
+}
+body{
+ background-color: rgb(190, 193, 196 );
+}
+.card{
+   margin: 30px;
+   border-radius: 5px;
+   border-color: black;
+   border: 5px;
+   border-style: solid;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+
+}
+
+.card-body {
+   background-color: rgb(49, 57, 68);
+
+
+
+}
+
+.card-dis{
+   color: white;
+}
+
+
+
+.addtocard{
+margin-left: 100px;
+margin-right: 100px;
+
+}
+
+.btn1{
+width: 130px;
+height: 40px;
+border-radius: 8px;
+align: center;
+background-color: rgb(35, 95, 156);
+
+
+align-items: center;
+
+
+}
+.btn1:hover{
+background-color: rgb(37, 52, 102 );
+}
+
+.btn2{
+width: 130px;
+height: 40px;
+border-radius: 8px;
+align: center;
+background-color: rgb(182, 59, 59 );
+
+
+align-items: center;
+}
+
+.btn2:hover{
+background-color: rgb(131, 26, 36);
+}
+
+.card:hover {
+/* transform: scale(1.03); */
+transform: scale(1.01);
+box-shadow: 0 3px 4px rgba(0,0,0,0.3);
+}
+
+
+.logo-footer {
+margin-bottom: 40px;
+
+}
+footer {
+  color: gray;
+  padding-top: 10px;
+}
+footer p, a {
+font-size: 12px;
+font-family: 'Roboto', sans-serif;
+}
+footer h6 {
+font-family: 'Playfair Display', serif;
+margin-bottom: 40px;
+position: relative;
+}
+footer h6:after {
+position: absolute;
+content: "";
+background: grey;
+width: 12%;
+height: 1px;
+left: 0;
+bottom: -20px;
+}
+.btn-footer {
+       color: grey;
+
+      text-decoration: none;
+      border: 1px solid;
+      border-radius: 43px;
+      font-size: 13px;
+      padding: 7px 30px;
+      line-height: 47px;
+}
+.btn-footer:hover {
+
+      text-decoration: none;
+
+}
+.form-footer input[type="text"] {
+border: none;
+border-radius: 16px 0 0 16px;
+outline: none;
+padding-left: 10px;
+
+}
+::placeholder {
+font-size: 10px;
+padding-left: 10px;
+font-style: italic;
+}
+.form-footer input[type="button"] {
+border: none;
+background:#232323;
+margin-left: -5px;
+color: #fff;
+outline: none;
+border-radius: 0 16px 16px 0;
+padding: 2px 12px;
+}
+.social .fa {
+color: grey;
+font-size: 22px;
+padding: 10px 15px;
+background: #3c3c3c;
+}
+footer ul li {
+list-style: none;
+display: block;
+}
+footer ul  {
+padding-left: 0;
+}
+footer ul  li a{
+text-decoration: none;
+color: grey;
+text-decoration:none;
+}
+a:hover {
+text-decoration: none;
+color: #f5f5f5 !important;
+
+}
+.logo-part {
+border-right: 1px solid grey;
+height: 100%;
+}
+
+.bg-grey {
+background:rgb(13, 25, 65 );
+}
+/* .last{
+width: 2000px;
+height: 800px;
+padding-right: 500px;
+padding-left: 500px;
+length: 2000px;
+
+} */
+
+/* #image{
+border-top-right-radius: 8px;
+border-top-left-radius: 8px;
+} */

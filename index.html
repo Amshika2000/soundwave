@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.png">
+    <title>SongsCloud</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+    <script src="//connect.soundcloud.com/sdk.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="main.css">
+
+
+</head>
+<body>
+    <header>
+
+          <nav class="nav1">
+            <div class="boxes">
+            <h1 align="center">SOUNDcloud</h1><hr color="white" width="800">
+            <h5 align="center" >Music is Part Of Human Soul
+            <a><span class="glyphicon glyphicon-music"></span></a>
+
+          </div>
+          </nav>
+    </header>
+
+    <main class="addtocard">
+        <div class="card-group">
+            <div class="card">
+
+              <img src="img/ARsir.jpg" class="card-img-top" alt="ARsir" height="450" id="image">
+              <div class="card-body">
+              <h3 class="card-dis" align="center">A.R.Rahman</h3> <hr color="white">
+
+                <button type="button" name="button" id="start1"class="btn1" align="center">play</button>
+                <button type="button" name="button" id="stop1" class="btn2" align="center">stop</button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img/Aniruth2.jpg" class="card-img-top" alt="Aniruth" height="450">
+              <div class="card-body">
+                <h3 class="card-dis"  align="center">Anirudh</h3><hr color="white">
+                <button type="button" name="button" id="start2" class="btn1">play</button>
+                <button type="button" name="button" id="stop2" class="btn2">stop</button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img/sithsriram.jpg" class="card-img-top" alt="sithsriram" height="450">
+              <div class="card-body">
+                <h3 class="card-dis"  align="center">Sid sriram</h3><hr color="white">
+                <button type="button" name="button" id="start3" class="btn1">play</button>
+                <button type="button" name="button" id="stop3" class="btn2">stop</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-group">
+            <div class="card">
+              <img src="img/GV.jpg" class="card-img-top" alt="GV" height="450">
+              <div class="card-body">
+                <h3 class="card-dis"  align="center">GV pirakash</h3><hr color="white">
+                <button type="button" name="button" id="start4" class="btn1">play</button>
+                <button type="button" name="button" id="stop4" class="btn2">stop</button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img/u1.jpg" class="card-img-top" alt="Yuvan" height="450">
+              <div class="card-body">
+                <h3 class="card-dis"  align="center">Yuvan</h3><hr color="white">
+
+                <button type="button" name="button" id="start5" class="btn1">play</button>
+                <button type="button" name="button" id="stop5" class="btn2">stop</button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img/karthik2.jpg" class="card-img-top" alt="Karthik" height="450">
+              <div class="card-body">
+                <h3 class="card-dis"  align="center">Karthik</h3><hr color="white">
+                <button type="button" name="button" id="start6" class="btn1">play</button>
+                <button type="button" name="button" id="stop6" class="btn2">stop</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-group">
+            <div class="card">
+              <img src="img/imman.jpg" class="card-img-top" alt="Imman" height="350">
+              <div class="card-body">
+                <h3 class="card-dis"  align="center">Imman</h3><hr color="white">
+                <button type="button" name="button" id="start7" class="btn1">play</button>
+                <button type="button" name="button" id="stop-7" class="btn2">stop</button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img/priyanka.jpg" class="card-img-top" alt="Priyanka" height="350">
+              <div class="card-body">
+                <h3 class="card-dis"  align="center">Priyanka</h3><hr color="white">
+                <button type="button" name="button" id="start8" class="btn1">play</button>
+                <button type="button" name="button" id="stop8" class="btn2">stop</button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img/krish.jpg" class="card-img-top" alt="krish" height="350">
+              <div class="card-body">
+                <h3 class="card-dis" align="center">Krish</h3><hr color="white">
+                <button type="button" name="button" id="start9" class="btn1">play</button>
+                <button type="button" name="button" id="stop9" class="btn2">stop</button>
+              </div>
+            </div>
+          </div>
+     </main>
+
+     <footer class="container-fluid bg-grey py-5">
+<div class="container">
+   <div class="row">
+      <div class="col-md-6">
+         <div class="row">
+            <div class="col-md-6 ">
+               <div class="logo-part">
+                  <!-- <img src="https://i.ibb.co/sHZz13b/logo.png" class="w-50 logo-footer" > -->
+                  <h2>MUSIC</h2>
+                  <p>Music is the language of the spirit. It opens the secret of life bringing peace, abolishing strife.</p>
+                  <p>Music is the only language in which you cannot say a mean or sarcastic thing.</p>
+               </div>
+            </div>
+            <div class="col-md-6 px-4">
+               <h6> SOUND WAWES</h6>
+               <p>Music is the moonlight in the gloomy night of life.</p>
+               <a href="#" class="btn-footer"> More Info </a><br>
+               <a href="#" class="btn-footer"> Contact Us</a>
+            </div>
+         </div>
+      </div>
+      <div class="col-md-6">
+         <div class="row">
+            <div class="col-md-6 px-4">
+               <h6> Help us</h6>
+               <div class="row ">
+                  <div class="col-md-6">
+                     <ul>
+                        <li> <a href="#"> Home</a> </li>
+                        <li> <a href="#"> About</a> </li>
+                        <li> <a href="#"> Service</a> </li>
+                        <li> <a href="#"> Team</a> </li>
+                        <li> <a href="#"> Help</a> </li>
+                        <li> <a href="#"> Contact</a> </li>
+                     </ul>
+                  </div>
+                  <div class="col-md-6 px-4">
+                     <ul>
+                        <li> <a href="#"> Cab Faciliy</a> </li>
+                        <li> <a href="#"> Fax</a> </li>
+                        <li> <a href="#"> Terms</a> </li>
+                        <li> <a href="#"> Policy</a> </li>
+                        <li> <a href="#"> Refunds</a> </li>
+                        <li> <a href="#"> Paypal</a> </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-6 ">
+               <h6> Newsletter</h6>
+               <!-- <div class="social">
+                  <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                  <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+               </div>
+               <form class="form-footer my-3">
+                  <input type="text"  placeholder="search here...." name="search">
+                  <input type="button" value="Go" >
+               </form> -->
+               <p>Love is friendship set to music.</p>
+               <p>That's technology limitation of LCD monitors</p>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+</div>
+
+
+
+
+</body>
+</html>
